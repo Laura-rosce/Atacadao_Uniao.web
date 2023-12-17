@@ -1,0 +1,311 @@
+<!doctype html>
+<html lang="port-br">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="shortcut icon" href="favicon.png">
+  <meta name="keywords" content="bootstrap, bootstrap4" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+
+
+		<!-- Bootstrap CSS -->
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+		<link href="css/tiny-slider.css" rel="stylesheet">
+		<link href="css/style.css" rel="stylesheet">
+		<title>Atacadão União</title>
+</head>
+
+	<body>
+
+		<!-- Barra de navegação -->
+		<nav class="custom-navbar navbar navbar navbar-expand-md navbar-dark bg-dark" arial-label="Furni navigation bar">
+
+			<div class="container">
+				<a class="navbar-brand" href="Pagina_inicial.html">Atacadão União</a>
+
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsFurni" aria-controls="navbarsFurni" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+				<form class="form-inline my-2 my-lg-0" style="padding-left: 50px;">
+					<input class="form-control mr-sm-2" style="height:30px; width: 200px;" type="search" placeholder="Pesquise aqui.." aria-label="Pesquisar">
+					<a href="#"><span class="bi bi-search" style="color: white; font-size: 1.5em; padding-left: 10px;"></span></a>
+				</form>
+
+				<div class="collapse navbar-collapse" id="navbarsFurni">
+					<ul class="custom-navbar-nav navbar-nav ms-auto mb-2 mb-md-0">
+						<li><a class="nav-link" href="Pagina_inicial.html">Pagina Inicial</a></li>
+						<li class="nav-item active">
+							<a class="nav-link" href="Produtos.html">Produtos</a>
+						</li>
+						<li><a class="nav-link" href="Sobre.html">Sobre</a></li>
+						<li><a class="nav-link" href="Stories.html">Stories</a></li>
+					</ul>
+
+					<ul class="custom-navbar-cta navbar-nav mb-2 mb-md-0 ms-5">
+						<li><a class="nav-link" href="#"><img src="images/user.svg"></a></li>
+						<li><a class="nav-link" href="Carrinho.html"><img src="images/cart.svg"></a></li>
+					</ul>
+				</div>
+			</div>
+				
+		</nav>
+		<!-- Fim da barra de navegação -->
+
+		<!-- Divisão do Título-->
+		<div class="hero" style = "height: 100px; margin-block-end: 0px;">
+			<div class="container" style="background-color: #1F28FF;">
+				<div class="row justify-content-between" >
+					<div class="col-lg-5">
+						<div class="intro-excerpt">
+							<h1>Produtos</h1> 
+						</div>
+					</div>
+					<div class="col-lg-5">
+						<form class="form-inline my-2 my-lg-0 footer-section.custom-social">
+							<select id="preco" class="form-control" style="height: 40px;width: 300px;">
+								<option value="1">Filtragem por preço </option> 
+								<option value="2">Do menor para o maior</option> 
+								<option value="3">Do maior para o menor</option>    
+							</select>
+							<a href="#"><span class="bi bi-funnel-fill" style="color: white; font-size: 1.5em; padding-left: 10px;"></span></a>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	
+		<!--Começo dos produtos e filtro-->
+		<div class="product-section" style="padding: 20px ">
+		    <div class="container1">
+				<div class="filter-column" >
+					<h3 style="padding: 10px; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif">Filtrar por Categoria</h3>
+					<label><input type="checkbox" id="electronics" > Mesas e Cadeiras</label>
+					<label><input type="checkbox" id="electrodomestics" > Eletrodomésticos</label>
+					<label><input type="checkbox" id="couch"> Sofá</label>
+					<label><input type="checkbox" id="computer"> Notebooks </label>
+					<label><input type="checkbox" id="Liguidificador"> Liquidificador </label>
+			  
+					<h3 style="padding: 10px; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif">Filtrar por Cor</h3>
+					<label><input type="checkbox" id="red" ><span class="color-option" style="background-color: red;"></span> Vermelho</label>
+					<label><input type="checkbox" id="black" ><span class="color-option" style="background-color: rgb(0, 0, 0);"></span> Preto</label>
+					<label><input type="checkbox" id="beige" ><span class="color-option" style="background-color: rgb(204, 172, 69);"></span> Bege</label>
+					<label><input type="checkbox" id="gray"><span class="color-option" style="background-color: rgba(97, 104, 97, 0.623);"></span> Cinza </label>
+				</div>
+			  
+			<!-- Começa linha 1-->
+			<div style ="margin: 20px; width: 70%;">
+		      	<div class="row">
+					<div class="col-12 col-md-4 col-lg-3 mb-5">
+						<a class="product-item" href="Ver_mais.html">
+							<img src="images/notebook.png" class="img-fluid product-thumbnail">
+							<h3 class="product-title">Notebook Dell</h3>
+							<strong class="product-price">$200.00</strong>
+
+							<span class="icon-cross" href="Ver_mais.html">
+								
+									<img src="images/cross.svg" class="img-fluid">
+								
+							</span>
+						</a>
+					</div> 
+	
+					<div class="col-12 col-md-4 col-lg-3 mb-5">
+						<a class="product-item" href="Ver_mais.html">
+							<img src="images/not2.png" class="img-fluid product-thumbnail">
+							<h3 class="product-title">Notebook Apple</h3>
+							<strong class="product-price">$1550.00</strong>
+
+							<span class="icon-cross">
+								<img src="images/cross.svg" class="img-fluid">
+							</span>
+						
+						</a>
+					</div> 
+				
+					<div class="col-12 col-md-4 col-lg-3 mb-5">
+						<a class="product-item" href="Ver_mais.html">
+							<img src="images/mesa2.png" class="img-fluid product-thumbnail">
+							<h3 class="product-title">Mesa Redonda e Cadeiras</h3>
+							<strong class="product-price">$378.00</strong>
+
+							<span class="icon-cross">
+								<img src="images/cross.svg" class="img-fluid">
+							</span>
+						</a>
+					</div>
+
+					<div class="col-12 col-md-4 col-lg-3 mb-5">
+						<a class="product-item" href="Ver_mais.html">
+							<img src="images/mesa3.png" class="img-fluid product-thumbnail">
+							<h3 class="product-title">Mesa e 6 Cadeiras</h3>
+							<strong class="product-price">$978.00</strong>
+
+							<span class="icon-cross">
+								<img src="images/cross.svg" class="img-fluid">
+							</span>
+						</a>
+					</div>	
+				</div>
+
+			<!--Começa linha 2-->
+			<div class="row">
+				<div class="col-12 col-md-4 col-lg-3 mb-5">
+					<a class="product-item" href="Ver_mais.html">
+						<img src="images/product-3.png" class="img-fluid product-thumbnail">
+						<h3 class="product-title">Cardeira Quartenária</h3>
+						<strong class="product-price">$50.00</strong>
+
+						<span class="icon-cross">
+							<img src="images/cross.svg" class="img-fluid">
+						</span>
+					</a>
+				</div>
+						
+				<div class="col-12 col-md-4 col-lg-3 mb-5">
+					<a class="product-item" href="Ver_mais.html">
+						<img src="images/couch.png" class="img-fluid product-thumbnail">
+						<h3 class="product-title">Sofá Moderno</h3>
+						<strong class="product-price">$150.00</strong>
+
+						<span class="icon-cross">
+							<img src="images/cross.svg" class="img-fluid">
+						</span>
+					</a>
+				</div> 
+			
+				<div class="col-12 col-md-4 col-lg-3 mb-5">
+					<a class="product-item" href="Ver_mais.html">
+						<img src="images/product-2.png" class="img-fluid product-thumbnail">
+						<h3 class="product-title">Cadeira Giratória</h3>
+						<strong class="product-price">$78.00</strong>
+
+						<span class="icon-cross">
+							<img src="images/cross.svg" class="img-fluid">
+						</span>
+					</a>
+				</div>
+				
+				<div class="col-12 col-md-4 col-lg-3 mb-5">
+					<a class="product-item" href="Ver_mais.html">
+						<img src="images/geladeira1.png" class="img-fluid product-thumbnail">
+						<h3 class="product-title">Geladeira Power</h3>
+						<strong class="product-price">$300.00</strong>
+
+						<span class="icon-cross">
+							<img src="images/cross.svg" class="img-fluid">
+						</span>
+					</a>
+				</div>	
+			</div> 
+			<!--Começa linha 3-->
+			<div class="row">
+				<div class="col-12 col-md-4 col-lg-3 mb-5">
+					<a class="product-item" href="Ver_mais.html">
+						<img src="images/tv.png" class="img-fluid product-thumbnail">
+						<h3 class="product-title">Smart TV </h3>
+						<strong class="product-price">$743.00</strong>
+
+						<span class="icon-cross">
+							<img src="images/cross.svg" class="img-fluid">
+						</span>
+					</a>
+				</div>
+						
+				<div class="col-12 col-md-4 col-lg-3 mb-5">
+					<a class="product-item" href="Ver_mais.html">
+						<img src="images/liquidificador2.png" class="img-fluid product-thumbnail">
+						<h3 class="product-title">Liguidificador Vidre</h3>
+						<strong class="product-price">$90.00</strong>
+
+						<span class="icon-cross">
+							<img src="images/cross.svg" class="img-fluid">
+						</span>
+					</a>
+				</div> 
+			
+				<div class="col-12 col-md-4 col-lg-3 mb-5">
+					<a class="product-item" href="Ver_mais.html">
+						<img src="images/mesa e cadeira.png" class="img-fluid product-thumbnail">
+						<h3 class="product-title">Mesa e Cadeiras</h3>
+						<strong class="product-price">$580.00</strong>
+
+						<span class="icon-cross">
+							<img src="images/cross.svg" class="img-fluid">
+						</span>
+					</a>
+				</div>
+				
+				<div class="col-12 col-md-4 col-lg-3 mb-5">
+					<a class="product-item" href="Ver_mais.html">
+						<img src="images/geladeira2.png" class="img-fluid product-thumbnail">
+						<h3 class="product-title">Smart Frizzer</h3>
+						<strong class="product-price">$450.00</strong>
+
+						<span class="icon-cross">
+							<img src="images/cross.svg" class="img-fluid">
+						</span>
+					</a>
+				</div>	
+			</div> 
+			
+			<!--Começa linha 4-->
+			<div class="row">
+				<div class="col-12 col-md-4 col-lg-3 mb-5">
+					<a class="product-item" href="Ver_mais.html">
+						<img src="images/sofa.png" class="img-fluid product-thumbnail">
+						<h3 class="product-title">Poltrona Esmeralda </h3>
+						<strong class="product-price">$143.00</strong>
+
+						<span class="icon-cross">
+							<img src="images/cross.svg" class="img-fluid">
+						</span>
+					</a>
+				</div>
+						
+				<div class="col-12 col-md-4 col-lg-3 mb-5">
+					<a class="product-item" href="Ver_mais.html">
+						<img src="images/sofa2.png" class="img-fluid product-thumbnail">
+						<h3 class="product-title">Sofá Esmeralda</h3>
+						<strong class="product-price">$578.00</strong>
+
+						<span class="icon-cross">
+							<img src="images/cross.svg" class="img-fluid">
+						</span>
+					</a>
+				</div> 
+			
+				<div class="col-12 col-md-4 col-lg-3 mb-5">
+					<a class="product-item" href="Ver_mais.html">
+						<img src="images/prato.png" class="img-fluid product-thumbnail">
+						<h3 class="product-title">Conjunto de Pratos</h3>
+						<strong class="product-price">$43.00</strong>
+
+						<span class="icon-cross">
+							<img src="images/cross.svg" class="img-fluid">
+						</span>
+					</a>
+				</div>
+				
+				<div class="col-12 col-md-4 col-lg-3 mb-5">
+					<a class="product-item" href="Ver_mais.html">
+						<img src="images/product-1.png" class="img-fluid product-thumbnail">
+						<h3 class="product-title">Cadeira Tripé</h3>
+						<strong class="product-price">$45.00</strong>
+
+						<span class="icon-cross">
+							<img src="images/cross.svg" class="img-fluid">
+						</span>
+					</a>
+				</div>	
+			</div>
+		</div>
+
+
+		<script src="js/bootstrap.bundle.min.js"></script>
+		<script src="js/tiny-slider.js"></script>
+		<script src="js/custom.js"></script>
+	</body>
+
+</html>
