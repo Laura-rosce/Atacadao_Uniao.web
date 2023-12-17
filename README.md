@@ -1,4 +1,4 @@
-#Trabalho de Autoria Web para a criação de um e-commecer 
+##Trabalho de Autoria Web para a criação de um e-commecer 
 - Utilizado o framework Bootstrap
 - Feito com HTML, CSS, um pouco de JS
 - Marca criada: Atacadão União: Sua precisão, Nossa Emoção
